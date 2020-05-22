@@ -1,0 +1,86 @@
+body {
+	background-image: url(/images/3440165.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
+	background-size: cover;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	padding: 0.6em 0 0.6em 0;
+}
+
+p, h1 {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-size: larger;
+}
+
+
+header {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px -12px 27px 8px rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: black;
+}
+
+li :hover {
+	box-shadow: 0px 0px 50px -23px rgba(0,0,0,1);
+}
+
+.container {
+	padding: 0 5em 4em 5em;
+	margin-top: 15%;
+}
+
+.container a {
+	background-color: white;
+	list-style-type: none;
+	border-bottom: 2px solid grey;
+	text-decoration: none;
+	color: black;
+}
+
+.container ul {
+	padding: 0;
+}
+
+
+@media screen and (min-width: 850px) {
+	.container ul {
+		padding: 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	.container a {
+		width: 28%;
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.container a {
+		display: flex;
+		margin-bottom: 3em;
+	}
+	.container {
+		padding: 1em 5em 1em 5em;
+	}
+	h1 {
+		font-size: larger;
+	}
+}
